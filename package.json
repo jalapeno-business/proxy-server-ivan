@@ -1,0 +1,28 @@
+{
+  "name": "proxyserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jalapeno-business/proxy-server-ivan.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jalapeno-business/proxy-server-ivan/issues"
+  },
+  "homepage": "https://github.com/jalapeno-business/proxy-server-ivan#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "grunt-cli": "^1.3.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.4",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1"
+  }
+}

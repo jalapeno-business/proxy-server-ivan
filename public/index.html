@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <div id="Carousel"></div>
+    <script src="../node_modules/react/umd/react.development.js"></script>
+    <script src="../node_modules/react-dom/umd/react-dom.development.js"></script>
+    <script src="http://localhost:8888/app.js"></script>
+    <script src="http://localhost:1177/app.js"></script>
+    <script src="http://localhost:8080/app.js"></script>
+    <script src="http://localhost:3004/app.js"></script>
+    <!-- see: https://reactjs.org/docs/react-without-jsx.html -->
+    <script>
+      ReactDOM.render(
+        React.createElement(Carousel),
+        document.getElementById('Carousel')
+      );
+    </script>
+  </body>
+</html>
